@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+ /* Nav Bar Styling */
+
+nav {
+    top: 0;
+    z-index: 9999;
+    margin: 1vh 1.5vw;
+    display: flex;
+    align-items: center;
+    width: 96.5vw;
+    height: 8.5vh;
+    font-size: 30px;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+.nav_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-right: 2vw;
+}
+
+.border {
+    margin-right: 2vw ;
+    display: flex;
+    align-items: center;
+    width: .2vw;
+    height: 8vh;
+    background-color: #B3907A;
+}
+
+.Sim_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Sim_button p {
+    width: 100%;
+    background-color: #B3907A;
+    padding: 1.5vh 1.5vw;
+    border-radius: 30px;
+    font-size: 40px;
+    color: white;
+    box-shadow: 6px 5px 4px 0px #C7A189 inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav p {
+    color: #B3907A;
+}
+
+/* Title Layout */
+
+#animal_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 40vw 3vh 40vw;
+    padding: 2.5vh 0vw;
+    font-size: 45px;
+    font-family: "Rubik Bubbles", system-ui;
+    background-color: #B3907A;
+    border-radius: 30px;
+    box-shadow: 6px 5px 4px 0px #D1A98F inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Main Layout */
+
+main {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 26vw);
+    column-gap: 7vh;
+    grid-template-rows: repeat(7, 30vh);
+    row-gap: 5vh;
+}
+
+.birds_group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #E1CEC0;
+    border-radius: 30px;
+}
+
+.birds_img {
+    margin: 2vh auto 0 auto;
+    height: 75%;
+    width: 90%;
+    border-radius: 30px;
+    background-color: #EEE6D9;
+    box-shadow: 0px 0px 4px 5px #F5F2EC inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breed_name {
+    margin: auto;
+    font-size: 30px;
+    font-family: "Rubik Bubbles", system-ui;
+}

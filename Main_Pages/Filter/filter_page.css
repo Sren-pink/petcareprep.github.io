@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
+ /* Nav Bar Styling */
+
+nav {
+    top: 0;
+    z-index: 9999;
+    margin: 1vh 1.5vw;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    width: 96.5vw;
+    padding: 0 2vw 0 2vw;
+    font-size: 30px;
+    font-family: "Rubik Bubbles", system-ui;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nav_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu_left {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu_left p {
+    margin-left: 2vw;
+}
+
+#logo{
+    margin-top: 1.5vh;
+    margin-right: 2vw;
+    width: 15vw;
+    height: auto;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    width: .2vw;
+    height: 8vh;
+    background-color: #B3907A;
+}
+
+
+.Sim_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Sim_button p {
+    width: 100%;
+    background-color: #B3907A;
+    padding: 1.5vh 1.5vw;
+    border-radius: 30px;
+    font-size: 40px;
+    color: white;
+    box-shadow: 6px 5px 4px 0px #C7A189 inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav p {
+    color: #B3907A;
+}
+
+/* Main Page Layout */
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Main page left side Pets Filter */
+
+#left_side {
+    margin: 5vh 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25vw;
+    height: 105vh;
+}
+
+#pets {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 30px;
+    background-color: #E1CEC0;
+}
+
+#categories {
+    width: 100%;
+    height: fit-content;
+    margin-top: 5vh;
+    padding-bottom: 1vh;
+    border-radius: 30px;
+    background-color: #E1CEC0;
+}
+
+.categories_filter_choices {
+    display: grid;
+    grid-template-columns: 40vw;
+    grid-template-rows: repeat(10, 60px);
+}
+
+.categories_filter_choices div {
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.pets_filter_choices {
+    display: grid;
+    grid-template-columns: 11.5vw 11.5vw;
+    grid-template-rows: repeat(4, 6.25vh);
+    margin-left: 1vw;
+    text-overflow: clip;
+}
+
+.pets_filter_choices div {
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+}
+
+.pets_title, .categories_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh auto;
+    width: fit-content;
+    font-size: 30px;
+    font-family: "Rubik Bubbles", system-ui;
+    color: #fff;
+    background-color: #B3907A;
+    border-radius: 30px;
+    box-shadow: 6px 5px 4px 0px #C7A189 inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pets_title {
+    padding: 20px 70px;
+}
+
+.categories_title {
+    padding: 20px 40px;
+}
+
+input[type="checkbox"] + label{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: "Chewy", system-ui;
+    align-self: center;
+    line-height: 2vh;
+}
+
+label {
+    margin-left: 1vw;
+    color: #A47D64;
+}
+
+#cats #dogs #birds #turtles #fish #hamsters #lizards #snakes {
+    display: flex;
+    flex-wrap: wrap;
+    height: 23vh;
+}
+
+/* Main Page Right Side Layout */
+
+#right_side {
+    display: flex;
+    margin: 5vh auto;
+    width: 65vw;
+    height: 100vh;
+}
+

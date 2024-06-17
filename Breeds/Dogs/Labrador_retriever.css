@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+ /* Nav Bar Styling */
+
+nav {
+    top: 0;
+    z-index: 9999;
+    margin: 1vh 1.5vw;
+    display: flex;
+    align-items: center;
+    width: 96.5vw;
+    height: 8.5vh;
+    font-size: 30px;
+    font-family: "Rubik Bubbles", system-ui;
+}
+
+.nav_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-right: 2vw;
+}
+
+.border {
+    margin-right: 2vw ;
+    display: flex;
+    align-items: center;
+    width: .2vw;
+    height: 8vh;
+    background-color: #B3907A;
+}
+
+.Sim_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Sim_button p {
+    width: 100%;
+    background-color: #B3907A;
+    padding: 1.5vh 1.5vw;
+    border-radius: 30px;
+    font-size: 40px;
+    color: white;
+    box-shadow: 6px 5px 4px 0px #C7A189 inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav p {
+    color: #B3907A;
+}
+
+/* Main Layout */
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Main Left Side Layout */
+
+#left_section {
+    width: 30vw;
+    height: 90vh;
+}
+
+.breed_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5vh auto 3vh auto;
+    padding: 2vh 0;
+    width: 80%;
+    color: white;
+    font-size: 35px;
+    font-family: "Rubik Bubbles", system-ui;
+    background-color: #B3907A;
+    border-radius: 20px;
+    box-shadow: 6px 6px 4px 0px #C7A189 inset, 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.breed_img {
+    display: flex;
+    margin: 3vh auto;
+    width: 80%;
+    height: 40vh;
+    font-size: 35px;
+    font-family: "Rubik Bubbles", system-ui;
+    background-color: #E1CEC0;
+    border-radius: 30px;
+}
+
+img.breed {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    font-size: 35px;
+    font-family: "Rubik Bubbles", system-ui;
+    background-color: #EEE6D9;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 5px #F5F2EC inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* .main_description {
+    display: flex;
+    margin: 3vh auto;
+    width: 80%;
+    height: 25vh;
+    font-size: 35px;
+    font-family: "Rubik Bubbles", system-ui;
+    background-color: #B3907A;
+} */
+
+/* Main Right Side Layout */
+
+#right_section {
+    width: 70vw;
+    height: 90vh;
+}
+
+#scroll_frame {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto;
+    width: 80%;
+    height: 79vh;
+    font-size: 35px;
+    font-family: "Rubik Bubbles", system-ui;
+    background-color: #B3907A;
+    border-radius: 30px;
+}
+
+#des_boxes {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh auto 3vh auto;
+    width: 90%;
+    height: 25vh;
+    background-color: #EEE6D9;
+    border-radius: 30px;
+}
+
+.titles {
+    margin: 2vh 1.5vw;
+    color: #B3907A;
+    font-size: 35px;
+}
+
+.description {
+    background-color: aqua;
+}
